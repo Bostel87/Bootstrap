@@ -1,0 +1,102 @@
+/* Clase para darle estilos al body */
+.cinema-body{
+  background: url(../img/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse{
+  background: rgba(8, 45, 94, 0.95);
+  min-height: 10%;
+  border: none;
+}
+.logo-img {
+  width: 100px;
+}
+.container-fluid {
+  margin-top: 73px;
+}
+.jumbotron {
+  background: url(../img/cartelera.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+.jumbotron-img{
+  margin-top: 20px;
+  width: 220px;
+}
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.redes-sociales{
+  margin-top: 20px;
+}
+.img-social{
+height: 40px;
+width: 40px;
+}
+.titulo-text{
+  background: rgba(8, 45, 94, 0.95);
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+/* Clase para darle estilos al contenedor principal */
+/* .container-fluid {
+  margin-top: 64px;
+} */
+/* Clase para darle estilos al jumbotron */
+/* .jumbotron{
+  background: rgb(3, 41, 107);
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+} */
+/* clase para dar estilos al titulo-cartelera */
+/* .titulo-cartelera{
+  min-height: 45px;
+  background: rgb(110, 56, 255);
+} */
+.movies-row{
+background: rgb(123, 118, 126, 0.8);
+min-height: 350px;
+padding-left: 15px;
+padding-right: 15px;
+}
+/*.movies-column{
+  margin-top: 5px;
+  background: rgb(59, 3, 121);
+  min-height: 330px;
+  border: 1px dashed white;
+}
+.left-column{
+  border-right: 1px dashed white;
+
+}
+@media (max-width:770px) {
+  .right-column{
+    display: none;
+  }
+  .movies-row{
+    min-height: 250px;
+  }
+  .movies-column{
+    min-height: 230px;
+  }
+  .jumbotron{
+    min-height: 350px;
+  }
+} */

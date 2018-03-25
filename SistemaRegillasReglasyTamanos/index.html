@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Manejo de Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- Este framework maneja muchas clases y una de sus principales es class=container -->
+<header class="container" style="background-color:gray">
+  <!-- otro aspecto de tener en cuenta con el manejo de este framework es el sistema de rejillas
+  este nos permitira crear filas y en cada fila un maximo de 12 columnas en caso que se acceda
+  al sitio desde un movil el framework se encarga de colapsar la pantalla -->
+  <h1>Este es el Titulo</h1>
+</header>
+<section>
+  <!-- asi manejamos el sistema de rejillas si tenemso 3 columnas usamos col-lg-4 para q entren completas
+  si son 6 es col-lg-2 para q entren todas en la misma fila
+<div class="row">
+  <div class="col-lg-2 "  style="background-color:yellow">Columna 1</div>
+  <div class="col-lg-2 " style="background-color:blue">Columna 2</div>
+  <div class="col-lg-2 " style="background-color:green">Columna 3</div>
+  <div class="col-lg-2 "  style="background-color:yellow">Columna 1</div>
+  <div class="col-lg-2 " style="background-color:blue">Columna 2</div>
+  <div class="col-lg-2 " style="background-color:green">Columna 3</div>
+</div> -->
+  <!-- <div class="row">
+    <div class="col-lg-4 "  style="background-color:yellow">Columna 1</div>
+    <div class="col-lg-4 " style="background-color:blue">Columna 2</div>
+    <div class="col-lg-4 " style="background-color:green">Columna 3</div>
+  </div>
+</section>
+<section> -->
+  <!-- col-md-* para cuando este la pantalla mediana -->
+  <!-- <div class="row">
+    <div class="col-md-4" style="background-color:yellow">Columna 1</div>
+    <div class="col-md-4" style="background-color:blue">Columna 2</div>
+    <div class="col-md-4" style="background-color:green">Columna 3</div>
+  </div>
+</section>
+<section> -->
+  <!-- col-xs-* impedira que las columnas colapse -->
+  <!-- <div class="row">
+    <div class="col-xs-4" style="background-color:red">Columna 1</div>
+    <div class="col-xs-4" style="background-color:white">Columna 2</div>
+    <div class="col-xs-4" style="background-color:black">Columna 3</div>
+  </div>
+</section> -->
+<!-- en la clase podemos especificar varios atributos simultaneamente -->
+<div class="row">
+  <div class="col-lg-10 col-md-8 col-sm-7 col-xs-6"  style="background-color:yellow">
+<h1>Titulo 1</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="col-lg-2 col-md-4 col-sm-5 col-xs-6" style="background-color:blue">
+<h2>Titulo 2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+</section>
+<footer>
+
+</footer>
+  </body>
+</html>
